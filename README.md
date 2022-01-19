@@ -30,6 +30,7 @@ conda env create -f environment.yml
 ### Data conversion
 #### A. convert `.off` to `.obj`
     Please check **`model-converter-python`** in [3D_Augmentation](https://github.com/joycenerd/3D_Augmentation) repo
+    
     ```
     cd model-converter-python
     python convert.py \
