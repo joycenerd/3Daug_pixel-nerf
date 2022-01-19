@@ -29,17 +29,16 @@ conda env create -f environment.yml
 
 ### Data conversion
 #### A. convert `.off` to `.obj`
-    Please check **`model-converter-python`** in [3D_Augmentation](https://github.com/joycenerd/3D_Augmentation) repo
+Please check **`model-converter-python`** in [3D_Augmentation](https://github.com/joycenerd/3D_Augmentation) repo
     
-    ```
-    cd model-converter-python
-    python convert.py \
+```
+cd model-converter-python
+python convert.py \
     --data-root <data_dir> \
     --output-root <save_dir>
-    ```
+```
 #### B. Render 20 views (rgb, poses) -> **SRN input format**
-
-    Please refer to [here](shapenet_renderer/README.md) for detail.
+Please refer to [here](shapenet_renderer/README.md) for detail.
 #### C. Render 20 views (rgb, transformation matrix) -> **multi-obj input format**
 1. Install Blender
     ```
