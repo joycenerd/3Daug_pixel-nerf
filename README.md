@@ -33,8 +33,8 @@ conda env create -f environment.yml
     ```
     cd model-converter-python
     python convert.py \
---data-root <data_dir> \
---output-root <save_dir>
+    --data-root <data_dir> \
+    --output-root <save_dir>
     ```
 #### B. Render 20 views (rgb, poses) -> **SRN input format**
 
